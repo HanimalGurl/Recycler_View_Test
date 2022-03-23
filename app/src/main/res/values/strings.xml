@@ -23,7 +23,7 @@
     <string name="addbird">Adding of birds is not yet supported. Soon!</string>
     <string name="msg">is a nice bird</string>
 
-    <string-array name="birds">
+    <string-array name="bird_names_txt">
         <item>Common Crow</item>
         <item>Nuthatch</item>
         <item>Coot</item>
