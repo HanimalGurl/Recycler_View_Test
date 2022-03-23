@@ -1,3 +1,38 @@
-<resources>
-    <string name="app_name">Recycler View</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Recycler View Demo</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Birds</string>
+    <string name="second_fragment_label">Here\'s those birds…</string>
+    <string name="bird_view_fragment_label">Bird View</string>
+    <string name="yes">Yes!</string>
+
+    <string name="hello_first_fragment" tools:ignore="Typos">Wanna see some birds?</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="crow">Common Crow</string>
+    <string name="nuthatch">Nuthatch</string>
+    <string name="coot">Coot</string>
+    <string name="bunting">Reed Bunting</string>
+    <string name="curlew">Curlew</string>
+    <string name="starling">Starling</string>
+    <string name="gull">Black-headed Gull</string>
+    <string name="redshank">Redshank</string>
+    <string name="tit">Long Tailed Tit</string>
+    <string name="albatross">Black Browed Albatross</string>
+    <string name="addbird">Adding of birds is not yet supported. Soon!</string>
+    <string name="msg">is a nice bird</string>
+
+    <string-array name="birds">
+        <item>Common Crow</item>
+        <item>Nuthatch</item>
+        <item>Coot</item>
+        <item>Reed Bunting</item>
+        <item>Curlew</item>
+        <item>Starling</item>
+        <item>Black-headed Gull</item>
+        <item>Redshank</item>
+        <item>Long Tailed Tit</item>
+        <item>Black Browed Albatross</item>
+    </string-array>
 </resources>
