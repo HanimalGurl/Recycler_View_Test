@@ -22,6 +22,7 @@
     <string name="albatross">Black Browed Albatross</string>
     <string name="addbird">Adding of birds is not yet supported. Soon!</string>
     <string name="msg">is a nice bird</string>
+    <string name="show_snackbar">Show SnackBar</string>
 
     <string-array name="bird_names_txt">
         <item>Common Crow</item>
