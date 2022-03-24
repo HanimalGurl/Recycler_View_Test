@@ -1,6 +1,7 @@
 package com.example.recyclerview;
 
 import android.content.Context;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
@@ -25,7 +26,9 @@ public class B_RecyclerViewAdapter extends RecyclerView.Adapter<B_RecyclerViewAd
     @Override
     public B_RecyclerViewAdapter.MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         // This is where you inflate the layout (Giving a look to our rows)
-        return null;
+        LayoutInflater inflater = LayoutInflater.from(context);
+        View view = inflater.inflate(R.layout.recycler_view_row, parent, false);
+        return new B_RecyclerViewAdapter.MyViewHolder(view);
     }
 
     @Override
