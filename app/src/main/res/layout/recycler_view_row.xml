@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="wrap_content">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="146dp">
+            android:layout_height="115dp">
 
             <TextView
                 android:id="@+id/textView"
@@ -31,7 +31,7 @@
                 android:fontFamily="sans-serif"
                 android:text="@string/bunting"
                 android:textColor="#00695C"
-                android:textSize="34sp"
+                android:textSize="25sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
@@ -41,6 +41,7 @@
                 android:id="@+id/imageView"
                 android:layout_width="159dp"
                 android:layout_height="130dp"
+                android:layout_marginStart="16dp"
                 android:contentDescription="@string/bunting"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
