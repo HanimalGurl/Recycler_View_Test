@@ -36,6 +36,7 @@ public class B_RecyclerViewAdapter extends RecyclerView.Adapter<B_RecyclerViewAd
         //assigning values to the views we created in the recycler_view_row layout file
         //Based on the position of the recycler view
         holder.tvName.setText(birdModels.get(position).getBirdName());
+        holder.imageView.setImageResource(birdModels.get(position).getImage());
     }
 
     @Override
